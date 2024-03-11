@@ -1,1 +1,6 @@
-- Build -> Test -> Merge
+- Continuous integration
+  - Build -> Test -> Merge
+- Continuous Delivery
+  - Automatically release respository
+- Continuous Deployment
+  - Automatically deploy to production
