@@ -1,0 +1,16 @@
+name: Super-linter
+
+on: push
+#need to have a space!
+jobs:
+  super-linter:
+  rubs-on: ububtu-latest
+  steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Run Sub-linter
+      uses: github/super-linter@v2
+      env:
+        Default_Branch: main
+        GITHUB_TOKEN: ${{secret.GITHUB_TOKEN}}
