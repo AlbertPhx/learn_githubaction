@@ -4,7 +4,7 @@ on: push
 #need to have a space!
 jobs:
   super-linter:
-  runs-on: ububtu-latest
+  runs-on: ubuntu-latest
   steps:
     - name: Checkout code
       uses: actions/checkout@v2
