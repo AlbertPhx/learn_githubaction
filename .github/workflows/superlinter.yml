@@ -3,7 +3,7 @@ name: Super-linter
 on: push
 #need to have a space!
 jobs:
-  super-linter:
+  super-lint:
     name: Lint code base
     runs-on: ubuntu-latest
     steps:
